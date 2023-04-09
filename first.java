@@ -1,3 +1,4 @@
+import java.net.SocketTimeoutException;
 import java.util.*;
 
 
@@ -8,6 +9,7 @@ public class first {
         int b = sc.nextInt();
         int c = a + b;
         System.out.println(c);
+        System.out.println(a * b);
 
     }
 }
